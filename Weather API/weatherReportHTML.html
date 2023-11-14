@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="weatherFinder.css" />
+  </head>
+  <body>
+    <div id="main">
+      <h1>Weather Report</h1>
+      <input type="text" id="input" placeholder="Enter City Name"/>
+      <div>
+        <button type="button"  id="button" onclick="fetchData()">submit</button>
+      </div>
+      <div id="result">
+        <p id="city"></p>
+        <p id="temp"></p>
+        <p id="description"></p>
+      </div>
+    </div>
+    <script src="weatherFinder.js"></script>
+  </body>
+</html>

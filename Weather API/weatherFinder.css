@@ -1,0 +1,44 @@
+body{
+  background-image: url('weather.jpg');
+  background-size:auto;
+}
+
+#main{
+  position: absolute;
+  left: 58%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-58%,-50%);
+  background-color: coral;
+  height: 400px;
+  width: 350px;
+}
+
+#button{
+  margin-top: 40px;
+  height: 30px;
+  width: 70px;
+  border-radius: 10px;
+  background-color: aqua;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#button:hover{
+  background-color: red;
+}
+
+#result{
+  background-color: rgb(136, 185, 228);
+  height: 150px;
+  width: 180px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  margin-top: 30px;
+}
+
+#input{
+  border-radius: 5px;
+}
